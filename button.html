@@ -1,8 +1,19 @@
 <button>Click me</button>
+<button1>push me </button1>
+<button2>tap me</button2>
 <p>No handler here.</p>
 <script>
   var button = document.querySelector("button");
   button.addEventListener("click", function() {
-    console.log("Button clicked.");
+    console.log("I have been clicked.");
+    
+   var button1 = document.querySelector("button1");
+  button.addEventListener("click", function() {
+    console.log("");
+    
+   var button2 = document.querySelector("button2");
+  button.addEventListener("click", function() {
+    console.log("I have been tapped.");
+  
   });
 </script>
