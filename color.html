@@ -1,15 +1,15 @@
 <p>This page turns violet when you hold the V key.</p>
 <script>
-  addEventListener("keydown", function(event) {
-    if (event.keyCode == 86)
-      document.body.style.background = "violet";
+  addEventListener("keydown", function(event) { // when v is pushed 
+    if (event.keyCode == 86) // code for v 
+      document.body.style.background = "violet"; // changes backround violet
   });
-  addEventListener("keydown", function(event) {
+  addEventListener("keydown", function(event) { // when c is pushed
     if (event.keyCode == 67)
-      document.body.style.background = "";
+      document.body.style.background = ""; // changes backround to normal
       
       else 
-        document.body.style.backround = "violet"
+        document.body.style.backround = "violet"; // if anything else is pushed it remain the same
   });
 </script>
 
